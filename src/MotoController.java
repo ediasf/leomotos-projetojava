@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class MotoController implements MotoRepository{
 
-    private ArrayList<Moto> listaContas = new ArrayList<Moto>();
+    private ArrayList<Moto> listaMotos = new ArrayList<Moto>();
     @Override
     public void cadastrarMotocicleta() {
 
