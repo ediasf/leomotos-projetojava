@@ -7,6 +7,7 @@ public class Menu {
     public static void main(String[] args) {
 
         int opcao;
+        Moto moto1= new Moto(22,2013,"Bis",7000,"Honda");
 
         while (true) {
 
@@ -57,7 +58,7 @@ public class Menu {
                 case 3:
 
                     System.out.println("Listar motocicleta:\n\n");
-
+                    moto1.visualizar();
                     break;
                 case 4:
                     System.out.println("Remover motocicleta:\n\n");
