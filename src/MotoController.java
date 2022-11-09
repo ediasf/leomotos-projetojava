@@ -3,13 +3,14 @@ import java.util.ArrayList;
 public class MotoController implements MotoRepository{
 
     private ArrayList<Moto> listaMotos = new ArrayList<Moto>();
+
     @Override
-    public void cadastrarMotocicleta() {
+    public void cadastrarMotocicleta(Moto moto) {
 
     }
 
     @Override
-    public void editarMotocicleta() {
+    public void editarMotocicleta(Moto moto) {
 
     }
 
@@ -19,7 +20,12 @@ public class MotoController implements MotoRepository{
     }
 
     @Override
-    public void removerMotocicleta() {
+    public void removerMotocicleta(int id) {
+
+    }
+
+    @Override
+    public void buscarPorId(int id) {
 
     }
 }
