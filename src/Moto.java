@@ -1,4 +1,4 @@
-public class Moto {
+public abstract class  Moto {
     private int id;
     private int ano;
     private String modelo;

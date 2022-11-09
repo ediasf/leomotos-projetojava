@@ -13,4 +13,10 @@ public class MotoEletrica extends Moto{
     public void setQuantidadeBateria(int quantidadeBateria) {
         this.quantidadeBateria = quantidadeBateria;
     }
+
+    @Override
+    public void visualizar() {
+        super.visualizar();
+        System.out.println("Quantidade de Baterias: "+this.quantidadeBateria);
+    }
 }
