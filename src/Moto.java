@@ -1,16 +1,19 @@
-public class Moto {
+public abstract class  Moto {
     private int id;
     private int ano;
     private String modelo;
     private float preco;
     private String marca;
+    private int tipo;
 
-    public Moto(int id, int ano, String modelo, float preco, String marca) {
+    public Moto(int id, int ano, String modelo, float preco, String marca,int tipo) {
         this.id = id;
         this.ano = ano;
         this.modelo = modelo;
         this.preco = preco;
         this.marca = marca;
+        this.tipo=tipo;
+
     }
 
     public int getId() {
@@ -52,6 +55,15 @@ public class Moto {
     public void setMarca(String marca) {
         this.marca = marca;
     }
+
+    public int getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
+    }
+
     public void visualizar(){
         System.out.println("\n\n*********************************************************************");
         System.out.println("LISTA DE MOTOS:");

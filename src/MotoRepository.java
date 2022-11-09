@@ -1,8 +1,9 @@
 public interface MotoRepository {
-     void cadastrarMotocicleta();
-     void editarMotocicleta();
+     void cadastrarMotocicleta(Moto moto);
+     void editarMotocicleta(Moto moto);
      void listarTodas();
-     void removerMotocicleta();
+     void removerMotocicleta(int id);
+     void buscarPorId(int id);
 
 
 }
