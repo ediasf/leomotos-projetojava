@@ -1,3 +1,5 @@
+import leo_motos.util.Cores;
+
 import java.util.Scanner;
 
 public class Menu {
@@ -12,7 +14,7 @@ public class Menu {
         while (true) {
 
             // 70 *
-            System.out.println("******************* BEM VINDO *************************");
+            System.out.println(Cores.TEXT_YELLOW + Cores.ANSI_BLACK_BACKGROUND + "******************* BEM VINDO *************************");
             System.out.println("\n" +
                     "  __  __ ___ _____ _   _      __  __  ___ _____ ___  ___ \n" +
                     " |  \\/  | __|_   _/_\\ | |    |  \\/  |/ _ \\_   _/ _ \\/ __|\n" +
@@ -38,6 +40,7 @@ public class Menu {
             System.out.println("                                                                      ");
             System.out.println("**********************************************************************");
             System.out.println(" Entre com a opção desejada:                                          ");
+            System.out.println("                                                     " + Cores.TEXT_RESET);
             opcao = leia.nextInt();
 
             if (opcao == 5) {
