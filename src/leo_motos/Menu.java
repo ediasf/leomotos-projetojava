@@ -36,7 +36,8 @@ public class Menu {
             System.out.println("            2 - Editar motocicleta                                    ");
             System.out.println("            3 - Listar motocicletas                                   ");
             System.out.println("            4 - Remover motocicleta                                   ");
-            System.out.println("            5 - Encerrar                                              ");
+            System.out.println("            5 - Buscar Moto por ID                                   ");
+            System.out.println("            6 - Encerrar                                              ");
             System.out.println("                                                                      ");
             System.out.println("**********************************************************************");
             System.out.println(" Entre com a opção desejada:                                          ");
