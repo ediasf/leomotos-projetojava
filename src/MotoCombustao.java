@@ -2,8 +2,8 @@ public class MotoCombustao extends Moto{
     private int cilindrada;
     private String TipoCombustivel;
 
-    public MotoCombustao(int id, int ano, String modelo, float preco, String marca, int cilindrada, String tipoCombustivel) {
-        super(id, ano, modelo, preco, marca);
+    public MotoCombustao(int id, int ano, String modelo, float preco, String marca,int tipo, int cilindrada, String tipoCombustivel) {
+        super(id, ano, modelo, preco, marca, tipo);
         this.cilindrada = cilindrada;
         TipoCombustivel = tipoCombustivel;
     }
