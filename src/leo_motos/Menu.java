@@ -9,7 +9,7 @@ public class Menu {
     public static void main(String[] args) {
 
         int opcao;
-        Moto moto1= new Moto(22,2013,"Bis",7000,"Honda");
+        Moto moto1= new Moto(22,2013,"Bis",7000,"Honda",1);
 
         while (true) {
 
