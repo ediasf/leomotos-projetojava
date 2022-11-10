@@ -29,5 +29,5 @@ Desenvolvido por <b>Eduardo Dias</b>, <b>José Alysson</b>, <b>Moisés Marcondes
 ##  🍿 Demo da Aplicação:
 
 <p align="center">
-  <img alt="Aplicativo" src="./public/imagem_2022-06-24_103436996.png" height=450/>
+  <img alt="Aplicativo" src="https://github.com/ediasf/metalmotos-projetojava/blob/main/src/01.png" height=450/>
 </p><br><br>
